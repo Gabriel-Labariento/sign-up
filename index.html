@@ -13,6 +13,9 @@
                 <img clas="logo-img" src="images/odin-lined.png" alt="Odin Logo">
                 <p class="logo-text">ODIN</p>
             </div>
+            <div class="credits-container">
+                <p>Photo by <a href="https://haliewestphotography.com/">Halie West</a>on <a href="https://unsplash.com/@haliewestphoto">Unsplash</a></p>
+            </div>
         </div>
         <div class="right-half">
             <div class="upper-text">
@@ -20,25 +23,47 @@
                     something like this in your life to help you realize
                     your deepest dreams. Sign up <span class="italic">now</span> to get started.
                 </p>
-                <p>You know you want to.</p>
+                <p>You <span class="italic">know</span> you want to.</p>
             </div>
             <div class="form-container">
                 <p class="form-title">Let's do this!</p>
                 <form action="" method="get">
                     <div class="form-row">
-                        <div class="form-col"></div>
-                        <div class="form-col"></div>
+                        <div class="form-col">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="form-col">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-col"></div>
-                        <div class="form-col"></div>
+                        <div class="form-col">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form-col">
+                            <label for="phone">TELEPHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-col"></div>
-                        <div class="form-col"></div>
-                    </div>
-                </form>
+                        <div class="form-col">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form-col">
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" name="password-confirm" id="password-confirm">
+                        </div>
+                    </div>  
             </div>
+            <div class="button-container">
+                <button type="submit" class="submit-button">Create Account</button>
+                <p class="button-subtext">Already have an account? <a href="#"><span class="login">Log in.</span></a></p>
+            </div>
+        </form>
         </div>
     </div>
 </body>
